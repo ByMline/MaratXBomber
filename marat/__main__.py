@@ -27,12 +27,12 @@ app.mount('/static', StaticFiles(directory="static"), name='static')
 
 @click.command()
 def main():
-    webbrowser.open('http://127.0.0.1:5050/', new=2, autoraise=True)
+    webbrowser.open('http://127.0.0.1:8080/', new=2, autoraise=True)
     print(
-        "Сайт SMS Bomber запущень по этой ссылке: http://127.0.0.1:5050/."
+        "Сайт SMS Bomber запущень по этой ссылке: http://127.0.0.1:8080/."
         " Если она не открылась автоматически - скопируйте и вставьте"
         " её в браузер.")
-    uvicorn.run(app, host='127.0.0.1', port=5050)
+    uvicorn.run(app, host='127.0.0.1', port=8080)
 
 
 def load_services():
