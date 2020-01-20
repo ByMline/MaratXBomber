@@ -7,7 +7,7 @@
     <link href="/static/bootstrap.min.css" rel="stylesheet">
     <link href="/static/index.css" rel="stylesheet">
     <link href="/static/intlTelInput.min.css" rel="stylesheet">
-    <title>SMS BOMBER by Marat</title>
+    <title>SMS BOMBER by Marat / Сервисы</title>
 </head>
 <body>
 <div id="block-ui">
@@ -15,28 +15,28 @@
 </div>
 
 <main>
-    <p class="lead" id="sms">Сервисы: <span class="badge badge-pill badge-danger no-select">{{ services_count }}</span></p>
-    <h1 class="no-select">SMS BOMBER от MARATx</h1>
+    <p class="lead" id="sms">Доступных сервисов: <span class="badge badge-pill badge-danger no-select">{{ services_count }}</span></p>
+    <h3 class="no-select">1) AlPari</h3>
+    <h3 class="no-select">1) AtPrime </h3>
+	<h3 class="no-select">1) BelkaCar</h3>
+	<h3 class="no-select">1) CarSmile</h3>
+	<h3 class="no-select">1) Citilink</h3>
+	<h3 class="no-select">1) DeliMobil</h3>
+	<h3 class="no-select">1) DeliveyClub</h3>
+	<h3 class="no-select">1) FindClone</h3>
+	<h3 class="no-select">1) GuruTaxi</h3>
+	<h3 class="no-select">1) ICQ</h3>
+	<h3 class="no-select">1) InDriver</h3>
+	<h3 class="no-select">1) InVitro</h3>
+	<h3 class="no-select">1) iQos</h3>
+	<h3 class="no-select">1) ivi</h3>
+	<h3 class="no-select">1)</h3>
+	<h3 class="no-select">1)</h3>
+	<h3 class="no-select">1)</h3>
+	<h3 class="no-select">1)</h3>
+	<h3 class="no-select">1)</h3>
+	
 
-    <form id="phone-form" method="post">
-        <div class="form-row">
-            <div class="col">
-                <label for="phone"></label>
-                <input aria-describedby="phonesHelp" class="form-control" id="phone" name="phone"
-                       pattern="\d*" required type="number">
-            </div>
-
-            <div class="col">
-                <label for="count"></label>
-                <input class="form-control" id="count" min="1" name="number_of_cycles" placeholder="Повторы"
-                       required type="number" value="1">
-            </div>
-        </div>
-
-        <small class="form-text text-muted" id="phonesHelp"></small>
-        <button class="btn btn-danger btn-lg" type="submit">Начать</button>
-    </form>
-	<div><h3 class="no-select"><a href="/service.html">Список сервисов</a></h3></div>
 </main>
 
 <footer class="mt-auto py-3 footer">
