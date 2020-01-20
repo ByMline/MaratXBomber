@@ -15,6 +15,7 @@
 </div>
 
 <main>
+    <p class="lead" id="sms">Сервисы: <span class="badge badge-pill badge-danger no-select">{{ services_count }}</span></p>
     <h1 class="no-select">SMS BOMBER от MARATx</h1>
 
     <form id="phone-form" method="post">
@@ -33,13 +34,12 @@
         </div>
 
         <small class="form-text text-muted" id="phonesHelp"></small>
-        <button class="btn btn-danger btn-lg" type="submit">Начать</button>
+        <button class="btn btn-danger btn-lg" type="submit">Начать</button> <div><button class="btn btn-danger btn-lg" href="https://vk.com/dragonbornd">Список сервисов</button></div>
     </form>
 </main>
 
 <footer class="mt-auto py-3 footer">
     <span class="text-muted">Made by MARAT with</span> <span class="heart">GlobalCompany</span>
-    <p class="lead" id="sms">Сервисы: <span class="badge badge-pill badge-danger no-select">{{ services_count }}</span></p>
 </footer>
 
 <script src="/static/jquery-3.4.1.min.js"></script>
