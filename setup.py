@@ -4,18 +4,20 @@ from setuptools import setup
 import platform
 import os
 
-NAME = 'MaratXBomber'
+NAME = 'marat'
 DESCRIPTION = 'SMS Bomber by MARAT'
 URL = 'https://github.com/ByMline/MaratXBomber'
 EMAIL = ''
 AUTHOR = 'MaratMuratov'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '2.0.0'
+VERSION = '1.0.0'
+
 REQUIRED = [
     "starlette", "aiofiles", "jinja2", "python-multipart", "fake_useragent",
     "uvicorn", "click",
     "aiohttp"
 ]
+
 setup(
     name=NAME,
     version=VERSION,
