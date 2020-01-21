@@ -8,7 +8,7 @@
 
 2.Откройте пуск и в поиске найдите Windows PowerShell, затем откройте его и впишите самым первым вот эту команду:
 ```sh
-pip3 install https://github.com/ByMline/MaratXBomber/archive/master.zip —upgrade
+pip3 install https://github.com/ByMline/MaratXBomber/archive/master.zip --upgrade
 ```
 
 3. Дальше у вас пойдет загрузка файлов бомбера,после загрузки введите команду marat чтобы запустить SMS Bomber.(у вас автоматически должно открыть html ссылку, где вы можете прописать номер и дать пиздюлей своему обидчику).
@@ -28,7 +28,7 @@ https://play.google.com/store/apps/details?id=com.termux (TERMUX)
     ```
 3) После установки всех файлов впишите след. команду:
     ```sh
-    pip3 install https://github.com/ByMline/MaratXBomber/archive/master.zip —upgrade
+    pip3 install https://github.com/ByMline/MaratXBomber/archive/master.zip --upgrade
     ```
     
 4) После всего проделанного вписываем команду marat и нажимаем Далее.
